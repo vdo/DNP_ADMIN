@@ -40,7 +40,8 @@ const mapStateToProps = createStructuredSelector({
   corePackages: selector.getCorePackages,
   dnpPackages: selector.getDnpPackages,
   fetching: selector.fetching,
-  hasFetched: selector.hasFetched
+  hasFetched: selector.hasFetched,
+  packagesToBeUpgraded: selector.getPackagesToBeUpgraded
 });
 
 const mapDispatchToProps = {};
